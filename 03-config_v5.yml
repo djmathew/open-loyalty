@@ -6,7 +6,7 @@ metadata:
 data:
   config.js: |-
           const config = {
-              "apiUrl": "http://35.181.6.93/api",
+              "apiUrl": "http://10.10.105.234/api",
               "dateFormat": "YYYY-MM-DD",
               "dateTimeFormat": "YYYY-MM-DD HH:mm",
               "perPage": 20,
@@ -14,7 +14,7 @@ data:
               "modules": []
           };
           window.OpenLoyaltyConfig = {
-              "apiUrl": "http://35.181.6.93/api",
+              "apiUrl": "http://10.10.105.234/api",
               "dateFormat": "YYYY-MM-DD",
               "dateTimeFormat": "YYYY-MM-DD HH:mm",
               "perPage": 20,
