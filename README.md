@@ -135,7 +135,7 @@ After starting Open Loyalty it's exposes services under following URLs:
 * http://openloyalty.localhost:8184 - the merchant panel
 * http://openloyalty.localhost:8181 - RESTful API port
 * http://openloyalty.localhost:8181/doc - swagger-like API doc
-* http://openloyalty.localhost:8086/ - the MailHog that cachets all e-mails
+* http://openloyalty.localhost:8186/ - the MailHog that cachets all e-mails
 
 ---
 ## Generate JWT keys
