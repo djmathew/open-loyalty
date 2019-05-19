@@ -115,7 +115,19 @@ After starting Open Loyalty in developer mode it's exposes services under slight
  * http://openloyalty.localhost:8081/pos - the merchant panel,
  * http://openloyalty.localhost - RESTful API port
  * http://openloyalty.localhost/app_dev.php/doc - swagger-like API doc
-
+---
+## For Production
+```
+cd open-loyalty
+```
+Run using docker-compose
+```
+docker-compose -f ./docker/docker-compose.prod.yml up
+```
+Setting up the databse
+```
+docker-compose -f ./docker/docker-compose.prod.yml exec
+```
 ## Generate JWT keys
 
 Running `phing setup` will generate the JWT public/private keys for you, but in case you would like to generate them "manually" use `phing generate-jwt-keys`.
