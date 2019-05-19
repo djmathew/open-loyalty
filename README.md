@@ -109,14 +109,15 @@ After starting Open Loyalty in developer mode it's exposes services under slight
  * http://openloyalty.localhost:8081/pos - the merchant panel,
  * http://openloyalty.localhost - RESTful API port
  * http://openloyalty.localhost/app_dev.php/doc - swagger-like API doc
----
+
+
 ## For Production
 ```
 cd open-loyalty
 ```
 Run using docker-compose
 ```
-docker-compose -f ./docker/docker-compose.prod.yml up
+docker-compose -f ./docker/docker-compose.prod.yml up -d
 ```
 Setting up the databse
 ```
