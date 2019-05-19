@@ -31,12 +31,6 @@ To get the quotation, please visit www.openloyalty.io and send the request.
 
 There is variety of applications for Open Loyalty. Based on it you can build loyalty solutions like: loyalty modules for eCommerce, full loyalty programs for off-line and on-line, motivational programs for sales department or customer care programs with mobile application.
 
-## Screenshots
-
-![Admin Cockpit](https://user-images.githubusercontent.com/3582562/54033263-1db79500-41b4-11e9-8f2d-9b91acce50cf.png)
-![Client Cockpit](https://user-images.githubusercontent.com/3582562/54033264-1db79500-41b4-11e9-984c-a954cd136d5c.png)
-![Client Cockpit](https://user-images.githubusercontent.com/3582562/54033262-1db79500-41b4-11e9-88a6-e5449cb6782b.png)
-
 ## Quick install
 
 This project has full support for running in [Docker](https://www.docker.com/>).
