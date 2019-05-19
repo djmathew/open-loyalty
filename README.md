@@ -121,7 +121,7 @@ docker-compose -f ./docker/docker-compose.prod.yml up -d
 ```
 Setting up the databse
 ```
-docker-compose -f ./docker/docker-compose.prod.yml exec
+docker-compose -f ./docker/docker-compose.prod.yml exec php phing setup
 ```
 ## Generate JWT keys
 
