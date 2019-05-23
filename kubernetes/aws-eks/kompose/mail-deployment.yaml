@@ -1,0 +1,24 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    io.kompose.service: mail
+  name: mail
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: mail
+    spec:
+      containers:
+      - image: mailhog/mailhog
+        name: openloyalty-mail
+        ports:
+        - containerPort: 8025
+        resources: {}
+      restartPolicy: Always
+status: {}

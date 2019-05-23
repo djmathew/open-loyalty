@@ -1,0 +1,41 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    io.kompose.service: db
+  name: db
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: db
+    spec:
+      containers:
+      - env:
+        - name: POSTGRES_DB
+          value: openloyalty
+        - name: POSTGRES_USER
+          value: openloyalty
+        - name: POSTGRES_PASSWORD
+          value: openloyalty
+        - name: APP_DB_HOST
+          value: db
+        - name: APP_DB_PORT
+          value: "5432"
+        - name: APP_DB_USER
+          value: openloyalty
+        - name: APP_DB_PASSWORD
+          value: openloyalty
+        - name: APP_DB_NAME
+          value: openloyalty
+        - name: ELK_HOST
+          value: elk
+        image: postgres:9
+        name: openloyalty-db
+        resources: {}
+      restartPolicy: Always
+status: {}
